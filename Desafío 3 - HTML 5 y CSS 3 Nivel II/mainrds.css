@@ -1,0 +1,219 @@
+body
+{
+	font-family: 'Roboto Slab', serif;
+}
+p
+{
+	font-family: 'Roboto', sans-serif;
+}
+section:first-child
+{
+	width: 100vw;
+}
+section:nth-child(2)
+{
+	text-align: center;
+	background: #f4f5f4;
+}
+section:nth-child(2), section:nth-child(3)
+{
+	padding: 3em 0;
+}
+section:nth-child(2) .servicios h2
+{
+	font-size: 1.3em;
+	margin-bottom: 2em;
+	font-weight: 400;
+}
+section:nth-child(2) h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+section:nth-child(2) p
+{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 4em;
+}
+section:nth-child(2) span
+{
+	font-size: 4em;
+	border-radius: 50%;
+	border: 1px solid #E2EAEC;
+	padding: 1em;
+	color: #f6d93c;
+}
+section:nth-child(2) .col-md-3:hover span
+{
+	color: #fff;
+	background: #0056B8;
+	border: 1px solid #fff;
+	transition: all .8s ease;
+}
+section:nth-child(2) .col-md-3
+{
+	cursor: pointer;
+}
+section:nth-child(3)
+{
+	background: #0056b8;
+	color: #fff;
+	padding: 2em 0;	
+}
+section:nth-child(3) p
+{
+	font-size: 1.4em;
+}
+section:nth-child(3) .filosofia
+{
+	text-align: center;
+	margin-top: 2em;
+	
+	padding-top: 3em;
+}
+section:nth-child(3) .filosofia p
+{
+	font-size: 1.3em;
+}
+section:nth-child(3) h2
+{
+	font-size: 2.5em;	
+	margin: 1em 0;
+	text-align: center;
+}
+section:nth-child(3) h2, section:nth-child(3) h3
+{
+	color: #f6d93c;
+	font-weight: 700;
+}
+section:nth-child(3) span
+{
+	font-size: 4em;
+}
+body > header
+{
+	left: 0;
+	padding: 2em 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	z-index: 9;
+}
+section:nth-child(3) img
+{
+	background: #e7e9e8;
+	text-align: center;
+}
+div[class="panel-body"]
+{
+	padding: 3em;
+}
+section:nth-child(4)
+{
+	padding: 2em 0;
+}
+section:nth-child(4), section:last-of-type
+{
+	text-align: center;
+	margin: 3em 0;
+}
+section:nth-child(4) h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+section p:last-of-type
+{
+	margin-bottom: 2em;
+}
+button[class*="btn-default"]
+{
+	background: #0056B8;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	padding: 1em 2em;
+	margin-top: 1em;
+
+}
+section:last-child 
+{
+	background: #F6D93C;
+	padding: 4em 0;
+}
+section:last-child span
+{
+	font-size: 3em;
+	margin: 1em 0;
+	color: #fff;
+}
+section:last-child div h2
+{
+	font-size: 3em;
+	font-weight: 700;
+	color: #0056b8;
+	margin-bottom: .5em;
+}
+div[class="contacto"]
+{
+	font-size: 1.5em;
+}
+footer
+{
+	text-align: center;
+}
+.list-inline > li
+{
+	text-transform: uppercase;
+	margin-top: 2em;
+}
+li > a
+{
+	padding: .8em 1.3em;
+}
+li > a:hover
+{ 
+	background: #0056b8;
+	color: #fff;
+	border-radius: .5em;
+	text-decoration: none;
+}
+section:first-child img
+{
+	border-bottom: 10px solid #F6D93C;
+}
+footer
+{
+	font-weight: 300;
+	position: relative;
+}
+footer + ul
+{
+	font-size: 1.5em;
+	margin: 2em 0;
+}
+footer + li
+{
+	text-decoration: underline;
+	margin: 0 1em;
+	color: #666;
+}
+span[id="btn-subir"]
+{
+	position: fixed;
+	right: 1em;
+	bottom: 1em;
+	z-index: 9999;
+	top: inherit;
+	font-size: 4em;
+	cursor: pointer;
+}
+
+div > img{
+	width: 100%;
+}

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    width: 100%;
+    height: 25vh;
+}
+header > img{
+    margin-top: 1em;
+    margin-left: 8em;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: -6.6em;
+    margin-left: 30em;
+}
+li {
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    transition: all 500ms ease-in-out;
+}
+li:hover {
+    background-color: #F57F17;
+    border-radius: 5px;
+}
+main {
+    width: 100%;
+}
+main > h1 {
+    color: #F57F17;
+    font-size: 4em;
+    text-align: center;
+    margin: 0.2em 0.8em 0.2em 0.8em;
+    padding: 10px;
+    border-bottom: rgb(0, 0, 0) solid 1px;
+}
+.portafolio-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 320px;
+    grid-gap: 10px;
+    padding: 50px
+}
+.portafolio-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portafolio-cont > div:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1/4;
+}
+.portafolio-cont > div:nth-child(8) {
+    grid-column: 1/3
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 8vh;
+}
+footer > div {
+    display: flex;
+}
+.titulo-f {
+    color: #F57F17;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 50px;
+}
+footer div p {
+    margin-top: 25px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+footer div > div {
+    margin-left: 55%;
+    margin-top: 10px;
+}
+footer div > img {
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+}
+@media only screen 
+  and (min-device-width: 724px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape)  {
+      header {
+          height: 180px;
+          width: 100%;
+      }
+    header > img{
+        margin-top: 1em;
+        margin-left: 8em;
+        width: 220px;
+        height: 150px;
+    }
+    nav {
+        margin-right: 35px;
+    }
+    li {
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 8px;
+    }
+    .portafolio-cont > div:first-child {
+        grid-column: 1/3;
+    }
+    .portafolio-cont > div:nth-child(2) {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .portafolio-cont > div:nth-child(6) {
+        grid-row: 2/4;
+    }
+    .portafolio-cont > div:nth-child(8) {
+        grid-row: 3;
+    }
+    footer {
+        display: flex;
+        align-items: flex-end;
+    }
+    footer div > div {
+        margin-left: 20em;
+    }
+    footer div > img {
+        width: 30px;
+        height: 30px;
+        margin: 8px;
+    }
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header {
+        height: 255px;
+        width: 100%;
+    }
+    header > img{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 7em;
+        padding: 0 0 10px 0;
+        width: 160px;
+        height: 115px;
+    }
+    main > h1 {
+        color: #F57F17;
+        font-size: 2em;
+        text-align: center;
+        margin: 0.1em 0.4em 0.1em 0.4em;
+        padding: 5px;
+        border-bottom: rgb(0, 0, 0) solid 1px;
+    }
+    .portafolio-cont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 120px;
+        grid-gap: 8px;
+        padding: 10px 5px 40px 5px;
+    }
+    .portafolio-cont > div:first-child {
+        grid-column: 1/3;
+    }
+    .portafolio-cont > div:nth-child(2) {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .portafolio-cont > div:nth-child(6) {
+        grid-row: 2/4;
+    }
+    .portafolio-cont > div:nth-child(8) {
+        grid-row: 3;
+    }
+    nav{
+        margin: 0 1.8em 0 0;
+    }
+    li {
+        display: block;
+        font-size: 1em;
+        margin: 0;
+        padding: 3px;
+    }
+    footer {
+        height: 40px;
+        display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    footer div > div {
+        margin: 30px 8.9em 0 0; 
+    }
+    footer div > img {
+        display: inline;
+        margin: 5px 0 5px 0;
+        height: 20px;
+        width: 25px;
+    }
+    footer div p {
+        display: none;
+    }
+  }
