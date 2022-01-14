@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  height: 90vh;
+  width: 100%;
+  background-image: url("/imgs/img1.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header > span:first-of-type {
+  position: relative;
+  left: 85%;
+  top: 1.5%;
+}
+
+h5 {
+  margin: 0;
+  display: inline;
+  font-size: 1em;
+  margin: 1em;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+h5:hover {
+  color: #08294e;
+}
+
+header > span:nth-child(2) {
+  text-align: center;
+  color: #fff;
+  width: 32em;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  left: 19%;
+  top: 25%;
+  font-size: 1.8em;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  color: #424344;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+button:hover {
+  background-color: #2cccc4;
+  color: #fff;
+}
+section {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #fff;
+}
+section div {
+  width: 20em;
+  height: 10em;
+  padding: 1em 0 2em 0;
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 5%;
+  top: 22%;
+}
+section span {
+  position: relative;
+  left: 35%;
+  bottom: 11em;
+  width: 400px;
+}
+section img {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+}
+section h6 {
+  cursor: pointer;
+  margin: 0;
+  font-size: 1.5em;
+}
+section h2 {
+  margin: 0;
+  font-size: 1.8em;
+  margin: 0.5em 0 0.5em 0;
+}
+section p {
+  margin: 0;
+  font-size: 1em;
+}
+body section:last-of-type {
+  background-color: #f1c50e;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+}
+body section:last-of-type > div {
+  height: 500px;
+  width: 300px;
+  position: relative;
+  top: 10%;
+}
+body section:last-of-type > div h2 {
+  font-weight: bold;
+  font-size: 5em;
+  margin: 0 0 0.5em 0;
+}
+body section:last-of-type > div p {
+  margin: 0 0 2em 0;
+}
+body section:last-of-type > img {
+  height: 100%;
+  width: 45%;
+  position: relative;
+  left: 7.8%;
+}

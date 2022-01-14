@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 5vh;
+  background-color: #fff;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #ff05ea;
+  margin: 0 5px 0 20px;
+  cursor: pointer;
+}
+
+ul {
+  width: 290px;
+  position: relative;
+  bottom: 35px;
+  left: 75%;
+}
+
+li {
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  font-size: 0.9em;
+  font-weight: normal;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+}
+
+section:first-of-type {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.img-chico {
+  width: 450px;
+  height: 500px;
+  position: relative;
+  top: 5%;
+  left: 1.5%;
+  z-index: 90;
+}
+
+.caja-gra {
+  width: 450px;
+  height: 460px;
+  background-image: linear-gradient(45deg, #feca02, #fe7ec9);
+  position: relative;
+  right: 27%;
+  top: 13%;
+  z-index: 80;
+  display: inline-block;
+}
+
+section:first-of-type span {
+  display: inline-block;
+  position: relative;
+  bottom: 16%;
+  right: 10%;
+}
+
+section:first-of-type span h2 {
+  color: #488df4;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.5rem;
+  margin: 1px 0 1px 0;
+}
+
+section:first-of-type span p {
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+}
+
+.cont {
+  width: 811px;
+  position: relative;
+  left: 40%;
+  margin: 0;
+}
+
+.cont-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 811px;
+}
+
+.caja1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  z-index: 100;
+}
+
+.caja2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  z-index: 100;
+}
+
+.caja3 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  z-index: 100;
+}
+
+.caja4 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  z-index: 100;
+}
+
+section:last-of-type {
+  width: 100%;
+  height: 60vh;
+  background-color: #38c4c1;
+}
+
+section:last-of-type h2 {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+}
+
+section:last-of-type p {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+section:last-of-type div {
+  width: 800px;
+  position: relative;
+  left: 22%;
+  top: 20%;
+}
+/*# sourceMappingURL=estilos.css.map */
