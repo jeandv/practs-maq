@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Desafio 3</title>
+</head>
+<body class="m-0 row justify-content-center" style="background-color: #f0f2f5;">
+  <header class="d-flex align-items-center" style="height: 50px; background-color: #fff;">
+    <nav class="nav justify-content-center">
+      <span class=" iconify ms-2" data-icon="bi:facebook" style="color: #0f8ff2;" data-width="42" data-height="42">
+      </span>
+      <input class="m-0 rounded-pill border-0 fs-6 p-1 text-center ms-3"
+        style="width: 160px; height: 40px; background-color: #e0e1e6;" placeholder="Buscar en Facebook"></input>
+      <div style="width: 418px; position: relative; left: 32%;">
+        <div class="dropdown d-inline-block">
+          <span class="iconify mx-4 mb-1 dropdown-toggle" data-icon="bx:bxs-home"
+            style="color: #76777b; cursor: pointer;" data-width="32" data-bs-toggle="dropdown" aria-expanded="false"
+            id="dropdownMenuButton1"></span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Inicio</a></li>
+            <li><a class="dropdown-item" href="#">Ir a perfil</a></li>
+            <li><a class="dropdown-item" href="#">Ajuste cuenta</a></li>
+          </ul>
+          <span class="iconify mx-4 mb-1 " data-icon="mdi:youtube-tv" style="color: #76777b; cursor: pointer;"
+            data-width="32" data-height="32" data-bs-toggle="dropdown" aria-expanded="false"
+            id="dropdownMenuButton1"></span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Ver</a></li>
+            <li><a class="dropdown-item" href="#">Ver videos</a></li>
+            <li><a class="dropdown-item" href="#">Ver Streams</a></li>
+          </ul>
+          <span class="iconify mx-4 mb-1 dropdown-toggle" data-icon="bx:bx-store"
+            style="color: #76777b; cursor: pointer;" data-width="32" data-height="32" data-bs-toggle="dropdown"
+            aria-expanded="false" id="dropdownMenuButton1"></span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Ir a tienda</a></li>
+            <li><a class="dropdown-item" href="#">Ofertas</a></li>
+            <li><a class="dropdown-item" href="#">Vender producto</a></li>
+          </ul>
+          <span class="iconify mx-4 mb-1 dropdown-toggle" data-icon="mdi:account-group"
+            style="color: #76777b; cursor: pointer;" data-width="32" data-height="32" data-bs-toggle="dropdown"
+            aria-expanded="false" id="dropdownMenuButton1"></span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Grupos que sigues</a></li>
+            <li><a class="dropdown-item" href="#">Grupos de amigos</a></li>
+            <li><a class="dropdown-item" href="#">Ir a buscar grupos</a></li>
+          </ul>
+          <span class="iconify mx-4 mb-1 dropdown-toggle" data-icon="mdi:facebook-gaming"
+            style="color: #76777b; cursor: pointer;" data-width="32" data-height="32" data-bs-toggle="dropdown"
+            aria-expanded="false" id="dropdownMenuButton1"></span>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Ir a jugar</a></li>
+            <li><a class="dropdown-item" href="#">Ver amigos jugar</a></li>
+            <li><a class="dropdown-item" href="#">Invitar amigos a juegos</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mx-4" style="position: relative; left: 58%;">
+        <img class="rounded-circle" style="width: 32px; height: 32px;" src="img/foto.jpg" alt="">
+        <p class="d-inline text-capitalize fw-bold ms-1">jean</p>
+      </div>
+      <div class="mx-2 rounded-circle bg-light" style="width: 40px; height: 40px; position: relative; left: 58%;"">
+        <span class=" iconify mt-1 ms-1" data-icon="gg:menu-grid-o" style="color: #050505;" data-width="30"
+        data-height="30"></span>
+      </div>
+      <div class="mx-2 rounded-circle bg-light" style="width: 40px; height: 40px; position: relative; left: 58%;"">
+        <span class=" iconify mt-1 ms-1" data-icon="bi:messenger" style="color: #050505;" data-width="20"
+        data-height="20"></span>
+      </div>
+      <div class="mx-2 rounded-circle bg-light" style="width: 40px; height: 40px; position: relative; left: 58%;"">
+        <span class=" iconify mt-1 ms-1" data-icon="ic:baseline-notifications" style="color: #050505;" data-width="24"
+        data-height="24"></span>
+      </div>
+      <div class="mx-2 rounded-circle bg-light" style="width: 40px; height: 40px; position: relative; left: 58%;"">
+        <span class=" iconify mt-1 ms-1" data-icon="eva:arrow-down-fill" style="color: #050505;" data-width="32"
+        data-height="32"></span>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="row">
+      <section class="col order-1" style="width: 20%; height: 100%;">
+        <ul class="list-group">
+          <li class="list-group-item" style="background: transparent; border: none;">
+            <img class="rounded-circle" src="img/foto.jpg" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">jean rondon</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/amigos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">amigos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/grupos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">grupos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/grupos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">grupos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/market.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">marketplace</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/watch.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">watch</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/recuerdos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">recuerdos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/guardado.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">guardado</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/paginas.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">páginas</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/eventos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">eventos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <img class=" rounded-circle" src="img/empleos.png" style="width: 38px; height: 38px;" alt="">
+            <p class="d-inline text-capitalize fw-bold ms-1">empleos</p>
+          </li>
+          <li class="list-group-item" style="background: transparent; border: none;"">
+            <span class=" iconify mt-1 ms-1" data-icon="eva:arrow-down-fill" style="color: #050505;" data-width="32"
+            data-height="32"></span>
+            <p class="d-inline text-capitalize fw-bold ms-1">ver más</p>
+          </li>
+        </ul>
+      </section>
+      <section class="col order-2" style="width: 60%; height: 100%;">
+        <div style="position: relative; right: 6%;">
+          <div class="rounded d-inline" style="width: 180px; height: 220px; position: relative; top: 20px;">
+            <img clas="rounded" src="img/foto.jpg" alt="" style="width: 120px; height: 130px;">
+            <div class="d-inline-block rounded-circle"
+              style="width: 36px; height: 36px; background-color: #fff; position: relative; top: 75px; right: 85px;">
+            </div>
+            <div class="rounded-bottom" style="width: 120px; height: 60px; background-color: #fff;">
+              <span class="iconify" data-icon="akar-icons:circle-plus-fill"
+                style="color: #1a77f2; width: 32px; height: 32px; position: relative; bottom: 20px; left: 41.5px;"></span>
+              <p class="fw-bold" style="font-size: 13px; position: relative; bottom: 20px; left: 30px;">Crea
+                una<br>historia</p>
+            </div>
+          </div>
+          <div class="rounded d-inline"
+            style="width: 140px; height: 200px; position: relative; bottom: 170px; left: 90px;"">
+              <img class=" border border-primary rounded-circle" src="img/story1perfil.jpg" alt=""
+            style="width: 32px; height: 32px; position: relative; bottom: 75px; left: 40px;">
+            <img class="rounded" src="img/story1.jpg" alt="" style="width: 120px; height: 190px;">
+            <p class="text-capitalize d-inline fw-bold ms-1"
+              style="color: #fff; position: relative; top: 75px; right: 120px; font-size: 13px; text-shadow: 80px black;">
+              axie infinity</p>
+          </div>
+          <div class="rounded d-inline"
+            style="width: 140px; height: 200px; position: relative; bottom: 170px; right: 25px;">
+            <img class="border border-primary rounded-circle" src="img/story2perfil.jpg" alt=""
+              style="width: 32px; height: 32px; position: relative; bottom: 75px; left: 40px;">
+            <img class="rounded" src="img/story2.jpg" alt="" style="width: 120px; height: 190px;">
+            <p class="text-capitalize d-inline fw-bold ms-1"
+              style="color: #fff; position: relative; top: 75px; right: 120px; font-size: 13px; text-shadow: 80px black;">
+              matias candia</p>
+          </div>
+          <div class="rounded d-inline"
+            style="width: 140px; height: 200px; position: relative; bottom: 360px; left: 350px;"">
+          <img class=" rounded-circle" src="img/story3perfil.jpg" alt=""
+            style="width: 32px; height: 32px; position: relative; bottom: 75px; left: 40px;">
+            <img class="rounded" src="img/story3.jpg" alt="" style="width: 120px; height: 190px;">
+            <p class="text-capitalize d-inline fw-bold ms-1"
+              style="color: #fff; position: relative; top: 75px; right: 120px; font-size: 13px; text-shadow: 80px black;">
+              perxitaa</p>
+          </div>
+          <span class="iconify" data-icon="akar-icons:circle-fill"
+            style="color: #737578; width: 30px; height: 30px; position: relative; bottom: 22.5em; left: 16.8em;"></span>
+          <span class="iconify" data-icon="carbon:next-filled"
+            style="color: white; width: 38px; height: 38px; position: relative; bottom: 22.5em; left: 14.3em;"></span>
+        </div>
+        <div class="rounded p-4"
+          style="background-color: #fff; width: 500px; height: 420px; position: relative; bottom: 30vh;">
+          <form>
+            <div class="mb-3">
+              <label for="" class="form-label">Nombre</label>
+              <input type="text" name="nombre" id="" class="form-control" placeholder="Coloca tu nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Contraseña</label>
+              <input type="password" name="clave" class="form-control" placeholder="Escribe tu contraseña"
+                aria-describedby="passwordHelpBlock" minlength="8" maxlength="20" required>
+              <div id="passwordHelpBlock" class="form-text">
+                La contraseña debe tener entre 6 y 15 caracteres.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo:</label>
+              <input type="email" name="correo" id="" class="form-control" required="" placeholder="Escribe tu correo"
+                aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">El correo debe ser del formato ejemplo@ejemplo.com</div>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Checkbox (acepta terminos y condiciones)</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+            <button type="submit" class="btn btn-primary">Cancelar</button>
+          </form>
+        </div>
+      </section>
+      <section class="col order-3" style="width: 20%; height: 100%;">
+        <div class="rounded m-3"
+          style="background-color: #fff; width: 355px; height: 150px; position: relative; left: 25%;">
+          <div class="p-1 ms-5">
+            <div class="py-2" style="position: relative; right: 12%;">
+              <img class="rounded-circle" src="img/amigos.png" style="width: 16px; height: 16px;" alt="">
+              <p class="d-inline text-capitalize fw-bold ms-1">solicitudes de amistad</p>
+            </div>
+            <div style="position: relative; right: 12%;"">
+            <img class=" rounded-circle" src="img/cr7.jpg" style="width: 48px; height: 48px;" alt="">
+              <p class="d-inline text-capitalize fw-bold ms-1">cristiano ronaldo</p>
+              <p class="d-inline ps-4" style="font-size: 12px;">hace 1 min</p>
+            </div>
+            <div style="position: relative; left: 20%; width: 190px;">
+              <input class="btn btn-primary" type="button" value="Confirmar">
+              <input class="btn btn-light" type="button" value="Eliminar"
+                style="background-color: #e4e6eb; border: none;">
+            </div>
+          </div>
+        </div>
+        <hr style="width: 350px; position: relative; left: 29%; margin: 0;">
+        <p class="text-capitalize fw-bold m-3" style="width: 300px; opacity: 0.5; position: relative; left: 25%;">
+          publicidad</p>
+        <div>
+          <div>
+            <img class="rounded" src="img/publicidad1.png" alt=""
+              style="width: 132px; height: 132px; position: relative; left: 28%;">
+            <p class="m-0 fs-6 " style="width: 200px; position: relative; left: 60%; bottom: 90px;">Conoce mas sobre el
+              SLP <br> en nuestra pagina web</p>
+          </div>
+          <div>
+            <img class="rounded" src="img/publicidad2.jpg" alt=""
+              style="width: 132px; height: 132px; position: relative; left: 28%;">
+            <p class="m-0 fs-6 " style="width: 200px; position: relative; left: 60%; bottom: 90px;">Interactuar en
+              realidad <br>virtual y aumentada!</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <!-- SCRIPTS BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+</html>
