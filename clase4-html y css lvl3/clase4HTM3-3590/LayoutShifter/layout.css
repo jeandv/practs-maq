@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body > div{
+    width: 100%;
+    height: 500px;
+}
+body > div:first-child{
+    background-color: darkblue;
+}
+body > div:nth-child(2) > div:first-child{
+    background-color: rgb(71, 184, 253);
+    height: 250px;
+    width: 100%;
+}
+body > div:nth-child(2) > div:last-child{
+    background-color: rgb(71, 253, 117);
+    height: 250px;
+}
+body > div:last-child{
+    background-color: rgb(228, 17, 17);
+}
+
+@media (min-width: 576px){
+    body > div:first-child{
+        width: 50%;
+    }
+    body > div:nth-child(2){
+        width: 50%;
+    }
+    body > div:last-child{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    body > div:last-child{
+        width: 20%;
+        order: 1;
+    }
+    body > div:nth-child(2){
+        width: 60%;
+        order: 2;
+    }
+    body > div:first-child{
+        width: 20%;
+    }
+}
