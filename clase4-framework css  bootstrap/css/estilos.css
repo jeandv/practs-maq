@@ -1,0 +1,89 @@
+/* BANNER */
+#banner div:first-child{
+    height: inherit;
+}
+#banner div:first-child img{
+    height: inherit;
+    object-fit: fill;
+}
+/* PROMOCIONES */
+#promociones{
+    height: 143px;
+}
+.promos{
+    border-radius: 10px;
+    height: 143px;
+}
+#promociones > div:nth-child(1){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/black-friday-2021-keyart-01-08nov21$es?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#promociones > div:nth-child(2){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/battlefield-2042-keyart-01-ps4-ps5-en-15sep21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#promociones > div:nth-child(3){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/ps5-games-homepage-keyart-01-en-16nov21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#promociones > div:nth-child(4){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/sifu-keyart-01-en-06apr21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#promociones > div:nth-child(5){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/fifa-22-holiday-campaign-keyart-01-en-08nov21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* BANNER 2 */
+#banner2-img{
+    height: 60vh;
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-october-homepage-background-desktop-01-en-27sep21?$2400px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner2-color{
+    height: 30vh;
+    background-color: #26254F;
+}
+.b2-img{
+    height: 211px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: transform 1s, box-shadow 1s;
+}
+.b2-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px black;
+}
+#banner2-color > section > div > div:nth-child(1){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/horror-games-keyart-01-en-06oct21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner2-color > section > div > div:nth-child(2){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/tmop-fifa-22-editorial-image-block-01-en-23aug21?$1600px--t$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#banner2-color > section > div > div:nth-child(3){
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/battle-royal-editorial-keyart-01-en-08oct21?$1600px$);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*CAROUSEL*/
+#carouselExampleCaptions img{
+    height: 532px;
+}
+/*TARJETA*/
+#tarjeta{
+    height: 90vh;
+}
+.card-tarjeta{
+    border: none !important;
+}
