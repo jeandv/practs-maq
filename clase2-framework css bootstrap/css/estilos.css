@@ -1,0 +1,43 @@
+.header-li{
+    /* padding: 30px 30px 16px 12px; */
+    font-size: .75rem;
+    /* display: flex;
+    align-items: center; */
+}
+.header-li-2{
+    /* padding: 30px 15px 16px 12px; */
+    font-size: .75rem;
+}
+@media screen and (min-width: 768px){
+    [class*=material]{
+        font-size: 1rem !important;
+    }
+}
+header li:hover span:first-child{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+/* SUBHEADER */
+#subheader > div:first-child > div:nth-child(2) p{
+    margin: 0;
+}
+#subheader > div:first-child > div:nth-child(2) p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* PRINCIPAL */
+#principal{
+    height: 120vh;
+}
+#principal h1{
+    font-family: SegoeProBlack, Segoe UI,SegoeUI,Helvetica,Arial,sans-serif;
+    font-size: 86px;
+    line-height: 82px;
+    font-weight: 900;
+}
+#principal .row > div:first-child > div:nth-of-type(2){
+    min-height: 107px;
+    background-image: url(https://compass-ssl.xbox.com/assets/97/d1/97d14d5e-e0f7-417d-b9a1-defc3b7b31c2.png?n=quote-bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
